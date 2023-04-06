@@ -1,0 +1,144 @@
+
+@-moz-document url-prefix() {
+    #table-data {
+      overflow-y: scroll;
+    }
+  }
+  
+  #table-data tr {
+    cursor: pointer;
+  }
+  
+  #table-data tr:nth-child(even) {
+    background-color: #f1f1f1;
+  }
+   
+  table {
+    border-collapse: collapse;
+    width: 90%;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10%;
+  }
+  
+  th {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+    background-color: black;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  
+  td {
+    font-size: 16px;
+    color: #808080;
+    line-height: 1.4;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .column1 {
+    width: 50px;
+  }
+  
+  .column2 {
+    width: 170px;
+  }
+  
+  .column3 {
+    width: 170px;
+  }
+  
+  .column4 {
+    width: 170px;
+  }
+  
+  .column5 {
+    width: 300px;
+  }
+  
+  .active {
+    background-color: lightseagreen !important;
+  }
+  
+  .active td {
+    color: black;
+  }
+
+
+  a {
+    text-decoration: none;
+  }
+  
+  form {
+    border: 1px solid black;
+    width: 230px;
+    padding: 6px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top:5%;
+    margin-left: 40%;
+  }
+  
+  button,
+  input,
+  textarea {
+    font-family: "Lato", sans-serif;
+    outline: unset;
+  }
+
+  #overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: none;
+  }
+  
+  #overlay img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+  }
+
+  #table-section {
+    width: 60%;
+  }
+
+  .searchicon{
+    width:20px;
+    height:20px;
+    cursor: pointer;
+
+  }
+
+  input{
+    margin-left: 10%;
+  }
+
+  .main{
+    display:flex
+  }
+
+  .rightContainer{
+    margin-top: 10%;
+    margin-left: 20%;
+    border:2px solid grey;
+    height:20vh;
+    width:20vw;
+    padding:30px;
+    border-radius: 20px;
+    color:indianred
+  }
+  
